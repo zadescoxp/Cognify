@@ -30,6 +30,9 @@ export default function Home() {
   const result = async () => {
     setLoading(true);
     setShowBlog(true);
+    setShowArticle(false);
+    setShowFlowchart(false);
+    setShowResources(false);
     try {
       const response = await fetch("http://127.0.0.1:5000/video", {
         method: "POST",
