@@ -201,7 +201,7 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center w-full">
             {loading && (
               <div className="w-full h-full bg-[#1e1e1e] p-4 rounded-xl mt-4 flex items-center justify-center">
-                <p className="text-lg font-regular">
+                <p className="text-sm font-regular">
                   Hang on tight we are fighting dragons...
                 </p>
               </div>
